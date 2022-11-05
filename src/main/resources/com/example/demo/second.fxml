@@ -11,15 +11,15 @@
     <children>
         <AnchorPane fx:id="l5" layoutY="100.0" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: #fafafa;">
             <children>
-                <Label fx:id="txt1" layoutX="197.0" layoutY="65.0" text="Первое место">
+                <Label fx:id="txt1" layoutX="211.0" layoutY="45.0" text="Первое место">
                <font>
                   <Font size="14.0" />
                </font></Label>
-                <Label fx:id="lbl2" layoutX="197.0" layoutY="143.0"  text="Третье место" >
+                <Label fx:id="lbl3" layoutX="211.0" layoutY="123.0" text="Третье место">
                <font>
                   <Font size="14.0" />
                </font></Label>
-                <Label fx:id="lbl3" layoutX="197.0" layoutY="105.0"  text="Второе место">
+                <Label fx:id="lbl2" layoutX="211.0" layoutY="85.0" text="Второе место">
                <font>
                   <Font size="14.0" />
                </font></Label>

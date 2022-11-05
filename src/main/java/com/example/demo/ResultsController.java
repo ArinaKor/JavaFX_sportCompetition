@@ -35,10 +35,10 @@ public class ResultsController {
         txt1.setText("Первое место: " + text);
     }
     public void displayName2(String text2) {
-        lbl2.setText("second место: " + text2);
+        lbl2.setText("Второе место: " + text2);
     }
     public void displayName3(String text3) {
-        lbl3.setText("third место: " + text3);
+        lbl3.setText("Третье место: " + text3);
     }
 
 }
