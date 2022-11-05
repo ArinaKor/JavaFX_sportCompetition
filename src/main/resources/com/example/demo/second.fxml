@@ -11,18 +11,18 @@
     <children>
         <AnchorPane fx:id="l5" layoutY="100.0" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: #fafafa;">
             <children>
-                <Text layoutX="197.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Первое место" wrappingWidth="108.54806518554688">
+                <Label fx:id="txt1" layoutX="197.0" layoutY="65.0" text="Первое место">
                <font>
                   <Font size="14.0" />
-               </font></Text>
-                <Text layoutX="197.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Третье место" wrappingWidth="94.14804077148438">
+               </font></Label>
+                <Label fx:id="lbl2" layoutX="197.0" layoutY="143.0"  text="Третье место" >
                <font>
                   <Font size="14.0" />
-               </font></Text>
-                <Text layoutX="197.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Второе место" wrappingWidth="94.14804077148438">
+               </font></Label>
+                <Label fx:id="lbl3" layoutX="197.0" layoutY="105.0"  text="Второе место">
                <font>
                   <Font size="14.0" />
-               </font></Text>
+               </font></Label>
             <ImageView fx:id="image" fitHeight="150.0" fitWidth="122.0" layoutX="65.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@75827.png" />

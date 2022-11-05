@@ -11,12 +11,12 @@
    <children>
       <AnchorPane fx:id="l5" layoutY="100.0" prefHeight="200.0" prefWidth="600.0" style="-fx-background-color: #fafafa;">
          <children>
-            <Button fx:id="submit" layoutX="447.0" layoutY="150.0" mnemonicParsing="false" onAction="#switchToScene2" text="Отправить" />
+            <Button fx:id="submit" layoutX="447.0" layoutY="150.0" mnemonicParsing="false" onAction="#login" text="Отправить" />
             <TextField fx:id="l1" layoutX="228.0" layoutY="30.0" />
             <TextField fx:id="l2" layoutX="228.0" layoutY="69.0" />
             <TextField fx:id="l3" layoutX="228.0" layoutY="111.0" />
             <TextField fx:id="l4" layoutX="227.0" layoutY="150.0" />
-            <Text layoutX="24.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результаты первого участника" wrappingWidth="194.94802856445312" />
+            <Text fx:id="lbl1" layoutX="24.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результаты первого участника" wrappingWidth="194.94802856445312" />
             <Text layoutX="24.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результаты четвертого участника" wrappingWidth="194.94802856445312" />
             <Text layoutX="24.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результаты третьего участника" wrappingWidth="194.94802856445312" />
             <Text layoutX="24.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Результаты второго участника" wrappingWidth="194.94802856445312" />

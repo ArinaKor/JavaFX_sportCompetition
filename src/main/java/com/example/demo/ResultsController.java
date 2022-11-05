@@ -3,6 +3,7 @@ package com.example.demo;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.FXML;
+import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
@@ -19,12 +20,25 @@ public class ResultsController {
 
     @FXML
     private AnchorPane l5;
+    @FXML
+    Label txt1;
+    @FXML
+    Label lbl2;
+    @FXML
+    Label lbl3;
 
     @FXML
     void initialize() {
-        assert image != null : "fx:id=\"image\" was not injected: check your FXML file 'second.fxml'.";
-        assert l5 != null : "fx:id=\"l5\" was not injected: check your FXML file 'second.fxml'.";
+    }
 
+    public void displayName1(String text) {
+        txt1.setText("Первое место: " + text);
+    }
+    public void displayName2(String text2) {
+        lbl2.setText("second место: " + text2);
+    }
+    public void displayName3(String text3) {
+        lbl3.setText("third место: " + text3);
     }
 
 }
